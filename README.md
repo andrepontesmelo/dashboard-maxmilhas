@@ -1,6 +1,6 @@
 # [Light Bootstrap Dashboard](http://www.creative-tim.com/product/light-bootstrap-dashboard)
 
-![alt text](http://i63.tinypic.com/205qhxh.png "Light Bootstrap Dashboard")
+![alt text](http://i63.tinypic.com/30ldugi.png "Light Bootstrap Dashboard")
 
 Light Bootstrap Dashboard is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 3 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
