@@ -1,0 +1,12 @@
+.center{
+  text-align: center;
+}
+.color-azul{
+  color: #1DC7EA;
+}
+p.destaque {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px 0;
+}
