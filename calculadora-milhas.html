@@ -24,6 +24,9 @@
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
 
+    <!--  Custom CSS  -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -58,39 +61,39 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
+                    <a href="perfil.html">
                         <i class="pe-7s-user"></i>
                         <p>Meu Perfil</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.html">
+                    <a href="voos-promocionais.html">
                         <i class="pe-7s-note2"></i>
                         <p>Vôos em Promoção</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.html">
+                    <a href="calculadora-milhas.html">
                         <i class="pe-7s-news-paper"></i>
                         <p>Calculadora de Milhas</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.html">
+                    <a href="minhas-milhas.html">
                         <i class="pe-7s-science"></i>
                         <p>Minhas Milhas</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
+                    <a href="programas-de-filidade.html">
                         <i class="pe-7s-map-marker"></i>
-                        <p>Termômetro</p>
+                        <p>Meus Pontos</p>
                     </a>
                 </li>
                 <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>Notificações</p>
+                    <a href="notifications.html" class="none">
+                        <!--<i class="pe-7s-bell"></i>-->
+                        <!--<p>Notificações</p>-->
                     </a>
                 </li>
 				<!--<li class="active-pro">
@@ -152,6 +155,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#">
+                                <span class="saudacao hidden-xs">Olá, José Felicio</span>
                                 <i class="fa pe-7s-power"></i>
                                 <p class="hidden-lg hidden-md">Sair</p>
                             </a>
@@ -171,75 +175,114 @@
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Calculadora de Milhas</h4>
-                                <p class="category">Calculadora e conversor de milhas</p>
+                                <p class="category">Digite a quantidade de pontos que você tem e saiba em quantas milhas você pode obter!</p>
                             </div>
                             <div class="content">
 
-                                <div class="typo-line">
-                                    <h1><p class="category">Header 1</p>Light Bootstrap Table Heading </h1>
-                                </div>
+                            <input type="text" class="col-md-5 col-xs-12" value="7800"><span class="col-md-1 pe-7s-repeat center hidden-xs"></span><input type="text" class="col-md-5 col-xs-12"><a href="" class="calculadora pe-7s-calculator hidden-xs"></a><a href="" class="hidden-md hidden-lg btn-calcular">Calcular</a>
 
-                                    <div class="typo-line">
-                                    <h2><p class="category">Header 2</p>Light Bootstrap Table Heading</h2>
-                                </div>
-                                <div class="typo-line">
-                                    <h3><p class="category">Header 3</p>Light Bootstrap Table Heading</h3>
-                                </div>
-                                <div class="typo-line">
-                                    <h4><p class="category">Header 4</p>Light Bootstrap Table Heading</h4>
-                                </div>
-                                <div class="typo-line">
-                                    <h5><p class="category">Header 5</p>Light Bootstrap Table Heading</h5>
-                                </div>
-                                 <div class="typo-line">
-                                    <h6><p class="category">Header 6</p>Light Bootstrap Table Heading</h6>
-                                </div>
-                                <div class="typo-line">
-                                    <p><span class="category">Paragraph</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                                </div>
-                                <div class="typo-line">
-                                    <p class="category">Quote</p>
-                                    <blockquote>
-                                     <p>
-                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                                     </p>
-                                     <small>
-                                     Steve Jobs, CEO Apple
-                                     </small>
-                                    </blockquote>
-                                </div>
 
-                                <div class="typo-line">
-                                    <p class="category">Muted Text</p>
-                                    <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
-                                    </p>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">Banco do Brasil</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                3.430
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="typo-line">
-                                    <!--
-                                     there are also "text-info", "text-success", "text-warning", "text-danger" clases for the text
-                                     -->
-                                    <p class="category">Coloured Text</p>
-                                    <p class="text-primary">
-                                        Text Primary - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-info">
-                                        Text Info - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-success">
-                                        Text Success - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-warning">
-                                        Text Warning - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-danger">
-                                        Text Danger - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">Santander</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                12.500
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">HSBC</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                7.000
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">Bradesco</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                1.300
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">Caixa Eco. Federal</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                4.340
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">Itaú</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                1.200
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center"> LATAM</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                7.800
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card ">
+                                        <div class="header">
+                                            <h4 class="title center">GOL</h4>
+                                        </div>
+                                        <div class="content">
+                                            <p class="destaque color-azul">
+                                                300
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                                <div class="typo-line">
-                                    <h2><p class="category">Small Tag</p>Header with small subtitle <br><small>".small" is a tag for the headers</small> </h2>
-                                </div>
 
 
                             </div>
@@ -250,32 +293,8 @@
             </div>
         </div>
 
-        <footer class="footer">
+         <footer class="footer">
             <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                               Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
                 <p class="copyright pull-right">
                     &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
                 </p>

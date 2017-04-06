@@ -1,12 +1,54 @@
 .center{
   text-align: center;
 }
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.none{
+  display: none!important;
+}
 .color-azul{
   color: #1DC7EA;
+}
+.color-red{
+  color: #e0050b;
+}
+.calculadora{
+  font-size: 2em;
 }
 p.destaque {
   text-align: center;
   font-size: 2em;
   font-weight: bold;
   padding: 20px 0;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+textarea.form-control {
+  font-size: 1.2em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #34b4d1;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+.btn-calcular {
+    background-color: #1DC7EA;
+    padding: 5px 25px;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 4px;
+}
+.expira {
+    color: #aaa;
+    position: relative;
+    top: -30px;
+}
+.card{
+  min-height: 190px;
 }
